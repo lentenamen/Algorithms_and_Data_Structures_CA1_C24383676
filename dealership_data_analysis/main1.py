@@ -12,7 +12,7 @@ from sorter.bubble_sort_optimized import BubbleSortOP
 
 # Price_by_size
 
-def time_sort(sorter, data, key_function, runs=1):
+def time_sort(sorter, data, key_function, runs=3):
     """
     Returns average execution time over multiple runs
     (reduces timing noise).
